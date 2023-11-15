@@ -1,0 +1,154 @@
+@import url(reset.css);
+@import url(font.css);
+
+.main-body {
+    width: 1440px;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 44px 37px;
+    flex-direction: column;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+}
+
+.menu {
+    width: 116px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #323232;
+}
+
+.team {
+    color: #2684F7;
+}
+
+.menu:hover {
+    color: rgb(75, 75, 255);
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 35px;
+    justify-content: space-between;
+}
+
+.bottom-block {
+    width: 1366px;
+    height: 742px;
+    background-color: #EAEBED;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px ;
+    padding-left: 34px;
+    padding-bottom: 13px;
+    flex-wrap: wrap;
+
+}
+
+.teammates{
+    width: 300px;
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 51px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+.teammates:hover::after{
+    width: 82px;
+    height: 76px;
+    display: block;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 280px;
+    margin-bottom: 280px;
+    z-index: 2;
+    content: ' ';
+    background-image: url(./images/trash-alt.svg);
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.teammates-bottom {
+    margin-top: 23px;
+}
+
+.team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.text-bold {
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text {
+    color: #C5C5C5;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200px;
+    line-height: normal;
+}
+
+.text-data {
+    color: #C5C5C5;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200px;
+    line-height: normal;
+    margin-top: 28px;
+}
+
+.teammates:hover,
+.teammates-bottom:hover {
+    background-color: #2684F7;
+    transition-duration: 0.6s;
+}
+
+.teammates:hover p,
+.teammates-bottom:hover p {
+    color: #fff;
+}
+
+.trash::after{
+    width: 82px;
+    height: 76px;
+    background: #f76868;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 280px;
+    margin-bottom: 280px;
+    z-index: 1;
+}

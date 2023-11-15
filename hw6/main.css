@@ -1,0 +1,479 @@
+@import url(reset.css);
+@import url(font.css);
+
+.main-body {
+    width: 1440px;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 35px;
+    flex-direction: column;
+}
+
+.blue-box svg:hover {
+    fill: rgb(253, 253, 253);
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+}
+
+.menu {
+    width: 116px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #323232;
+}
+
+.main {
+    color: #2684F7;
+}
+
+.menu:hover {
+    color: rgb(75, 75, 255);
+}
+
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 35px;
+    justify-content: space-between;
+}
+
+.bottom-block {
+    width: 1404px;
+    height: 726px;
+    background-color: #EAEBED;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 23px;
+}
+
+.icon-box {
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 105px;
+    height: 420px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 33px;
+    padding-top: 33px;
+    margin-top: 171px;
+}
+
+a>svg {
+    fill: #000000;
+    z-index: 2;
+}
+
+.blue-box {
+    width: 67px;
+    height: 62px;
+    border-radius: 20px;
+    transition-duration: 0.7s;
+    position: relative;
+}
+
+.blue-box a {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box p:hover {
+    fill: #fff;
+}
+
+.blue-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2785F7;
+    border-radius: 20px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.style {
+    font-family: 'Open Sans';
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.proj-text.blue-box::after {
+    content: "Project";
+}
+
+.account-text.blue-box::after {
+    content: "Account";
+}
+
+.groups-text.blue-box::after {
+    content: "Groups";
+}
+
+.groups-text.blue-box::after {
+    content: "Groups";
+}
+
+.cloud-text.blue-box::after {
+    content: "Cloud";
+}
+
+.cloud-text.blue-box::after {
+    content: "Cloud";
+}
+
+.settings-text.blue-box::after {
+    content: "Settings";
+}
+
+.blue-box:hover::after {
+    width: 151px;
+    z-index: 1;
+    /* content: "Account"; */
+}
+
+.blue-box:hover {
+    background-color: #2785F7;
+}
+
+.color {
+    background-color: #2785F7;
+}
+
+.blue-box svg {
+    width: 35px;
+    height: 35.389px;
+}
+
+.icon {
+    width: 35px;
+    height: 35.389px;
+    flex-shrink: 0;
+}
+
+.text-box {
+    width: 1276px;
+    height: 100%;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    width: 1276px;
+    height: 200px;
+    background-color: #EAEBED;
+    padding-left: 30px;
+    padding-top: 70px;
+    float: left;
+    border-top-right-radius: 30px;
+}
+
+.proj-name {
+    width: 592px;
+    height: 130px;
+    background-color: #ffffff;
+    margin-right: 37px;
+    border-radius: 30px;
+    float: left;
+    padding: 32px 42px;
+}
+
+.comp {
+    width: 583px;
+    height: 130px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    float: left;
+    padding: 32px 42px;
+}
+
+.bottom-box {
+    width: 1276px;
+    height: 550px;
+    background-color: #EAEBED;
+    display: block;
+    border-bottom-right-radius: 30px;
+    padding-left: 30px;
+    padding-top: 34px;
+}
+
+.description {
+    width: 732px;
+    height: 194px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 22px;
+    padding: 34px 42px;
+}
+
+.team {
+    width: 732px;
+    height: 194px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 34px 42px;
+}
+
+.data-port {
+    width: 447px;
+    height: 410px;
+    background-color: #ffffff;
+    margin-left: 33px;
+    border-radius: 30px;
+    padding: 34px 42px;
+}
+
+.float {
+    float: left;
+}
+
+.text {
+    color: #B1B1B1;
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-bold {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.team-img {
+    width: 120px;
+    height: 138.261px;
+    float: left;
+    margin-right: 49px;
+}
+
+.data-img {
+    width: 120px;
+    height: 138.261px;
+    margin-bottom: 24px;
+}
+
+.account-name {
+    width: 615px;
+    height: 149px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 42px;
+    padding-top: 42px;
+    /* display: flex; */
+    align-items: center;
+}
+
+.change-password {
+    width: 618px;
+    height: 517px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.company {
+    width: 588px;
+    height: 679px;
+    margin-top: 20px;
+    margin-left: 17px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.ellipse {
+    width: 65px;
+    height: 65px;
+    padding: 7px;
+    border-radius: 50%;
+    font-family: 'Open Sans';
+    color: #FFF;
+    text-align: center;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: left;
+}
+
+.top-change div {
+    background-color: #2785F7;
+    margin-right: 42px;
+    margin-bottom: 42px;
+}
+
+.account-name .ellipse {
+    background-color: #F24F5E;
+}
+
+.account-box {
+    float: auto;
+    padding-left: 104px;
+}
+
+.change-password {
+    padding-left: 42px;
+    padding-top: 27px;
+}
+
+.top-change {
+    width: 100%;
+    height: 107px
+}
+
+.acc-text-bold {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.acc-text {
+    color: #B1B1B1;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    line-height: 0.8;
+}
+
+.svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.bottom-change {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-text {
+    height: 23px;
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 127px;
+    height: 23px;
+
+}
+
+.password {
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    background: #FEFEFE;
+    width: 524px;
+    height: 63px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+    padding-left: 14px;
+}
+
+.company {
+    padding-top: 42px;
+    padding-left: 47px;
+}
+
+.comp-name {
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    background: #FEFEFE;
+    width: 494px;
+    height: 63px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+    padding-left: 14px;
+}
+
+.address {
+    width: 494px;
+    height: 100px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    background: #FEFEFE;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 14px;
+}
+
+.bottom-change div {
+    width: 242px;
+    height: 23px;
+    float: left;
+    margin-right: 17px;
+}
+
+.country {
+    float: left;
+    margin-right: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 237px;
+    height: 63px;
+    border-radius: 21px;
+    border: 2px solid #C0C0C0;
+    background: #FEFEFE;
+    padding-left: 14px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #2785F7;
+    padding-left: 14px;
+    outline: none;
+}
+
+input[type=password]:focus {
+    border: 3px solid #2785F7;
+    padding-left: 14px;
+    outline: none;
+}
