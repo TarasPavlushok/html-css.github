@@ -1,0 +1,11 @@
+@mixin base ($w, $h, $BC) {
+    width: $w;
+    height: $h;
+    background-color: $BC;
+}
+
+// @include flex($f, $vcc) {
+//     display: flex;
+//     align-items: $vcc;
+//     justify-content: $f;
+// }

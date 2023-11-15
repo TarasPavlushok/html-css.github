@@ -1,0 +1,120 @@
+@import 'base/reset';
+@import 'base/mixins';
+@import 'base/var';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: coral;
+}
+
+.social {
+  @include base (100%, 280px, #78b7e0);
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: row nowrap;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+
+  &__box {
+    @include base (100px, 100%, #70c0e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    overflow: hidden;
+    position: relative;
+
+    &__text {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  &__slide {
+    @include base (0px, 100%, #fff);
+    overflow: hidden;
+    transition: width 0.5s ease;
+
+    .social__box:hover+&,
+    &:hover {
+      width: 400px;
+    }
+
+    &__text {
+      @include base(400px, 100%, none);
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-flow: column nowrap;
+      overflow: hidden;
+      transition: transform 0.5s ease;
+      transform: translateX(-100%);
+
+      & p,
+      & h1 {
+        margin: 20px 0 0 10px;
+        font-size: 18px;
+      }
+
+      & h1 {
+        font-size: 48px;
+      }
+
+
+
+      .social__box:hover+.social__slide>&,
+      &:hover {
+        transform: translateX(0%);
+      }
+    }
+
+  }
+}
+
+
+.tw_color {
+  background-color: $twitter;
+}
+
+.fc_color {
+  background-color: $facebook;
+}
+
+.lin_color {
+  background-color: $linkedin;
+}
+
+.inst_color {
+  background-color: $instagram;
+}
+
+.you_color {
+  background-color: $youtube;
+}
+
+.tum_color {
+  background-color: $tumbler;
+}
+
+.drib_color {
+  background-color: $dribble;
+}
+
+.social__box:hover .social__box__text {
+  transform: translateX(0);
+}
+
+// Add hover effect to slide in the text from right to left 
+.social__box:hover .slider-text {
+  transform: translateX(0);
+}
