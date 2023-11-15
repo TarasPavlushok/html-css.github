@@ -1,0 +1,325 @@
+@media screen and (max-width: 375px) {
+    body {
+        height: 1948px;
+        width: 375px;
+    }
+
+    header {
+        width: 375px;
+        height: 275px;
+        padding: 36px 0 50px 0;
+        background-size: 375px 275px;
+        position: relative;
+    }
+
+    main {
+        height: 1313px;
+        width: 375px;
+    }
+
+    .mobile {
+        width: 375px;
+        height: 293px;
+        padding: 25px 34px;
+    }
+
+    footer {
+        width: 375px;
+        height: 360px;
+    }
+
+    .size {
+        height: 50px;
+    }
+
+    .size>a {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .top-portfolio {
+        font-size: 24px;
+        position: absolute;
+        right: 140px;
+    }
+
+    .text-white {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .small-text {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .works {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .hiden-svg {
+        visibility: visible;
+        position: absolute;
+        left: 34px;
+        top: 39px;
+        cursor: pointer;
+    }
+
+    .about {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+
+    .text-box {
+        font-size: 12px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .skills-box {
+        width: 375px;
+        height: 617px;
+        position: relative;
+    }
+
+    .skill-box>img {
+        width: 224px;
+        height: 218px;
+    }
+
+    .skills {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .portfolio{
+        margin-bottom: 19px;
+        text-align: center;
+    }
+    .text-box1{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .skills-img {
+        width: 224px;
+        height: 218px;
+        margin-left: 37px;
+    }
+
+    .small-box {
+        height: 320px;
+        width: 211px;
+    }
+
+    .profile-box {
+        width: 375px;
+        height: 320px;
+        padding-left: 54px;
+    }
+
+    .photo-box {
+        height: 220px;
+        width: 375px;
+    }
+
+    .place {
+        width: 169.764px;
+        height: 69.846px;
+    }
+
+    .place1 {
+        width: 176.069px;
+        height: 116.894px;
+    }
+
+    .place2 {
+        width: 113.014px;
+        height: 169.279px;
+    }
+
+    .place3 {
+        width: 123.685px;
+        height: 69.846px;
+    }
+
+    .profile-text-lite {
+        font-size: 12px;
+    }
+
+    .svg {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .prof-margin {
+        margin-right: 59px;
+    }
+
+    .profile-box1 {
+        height: 86px;
+        /* padding: 26px 32px 35px; */
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 35px;
+    }
+
+    .profile-box {
+        padding-left: 34px;
+        height: 320px;
+        width: 375px;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profile-text {
+        margin-bottom: 9px;
+        margin-right: 16px;
+        font-family: Libre Franklin;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        width: 92px;
+        height: 25px;
+    }
+
+    .bar {
+        width: 211px;
+        height: 18px;
+        margin-bottom: 10px;
+    }
+
+    .brown-bar {
+        width: 110px;
+        height: 18px;
+    }
+
+    .brown-bar1 {
+        width: 140px;
+        height: 18px;
+    }
+
+    .brown-bar2 {
+        width: 170px;
+        height: 18px;
+    }
+
+    .small-box {
+        width: 243px;
+        height: 234px;
+    }
+
+    .column {
+        width: 92px;
+    }
+
+    .portfolio-box {
+        width: 375px;
+        height: 429px;
+    }
+
+    .portfolio-box-top {
+        padding-right: 33px; 
+        padding-left: 33px; 
+        padding-top:25px;
+        height: 184px;
+        width: 308px;
+        padding: 0px;
+        position: absolute;
+    }
+
+    .svg {
+        margin: 0px;
+    }
+
+    .photo-box{
+        height: 220px;
+        width: 308px;
+    }
+
+    .place {
+        left: 0px;
+        top: 184px;
+        width: 169.764px;
+        height: 69.846px;
+    }
+
+    .place1 {
+        left: 184px;
+        top: 184px;
+        width: 123px;
+        height: 113px;
+    }
+
+    .place2 {
+        left: 0px;
+        top: 266px;
+        height: 113.014px;
+        width: 169.279px;
+    }
+
+    .place3 {
+        left: 184px;
+        top: 309px;
+    }
+
+    .skills {
+        font-size: 24px;
+    }
+
+    .text-box1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text-box2 {
+        font-size: 12px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        padding-bottom: 19px;
+    }
+
+    .footer-text-box {
+        margin-right: 104px;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .footer-text-box1 {
+        margin-right: 0px;
+    }
+
+    .footer {
+        width: 375px;
+        height: 360px;
+        padding: 25px 42px;
+        position: relative;
+    }
+
+    .footer-header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .spec-marg {
+        padding-bottom: 7px;
+        margin-bottom: 0px;
+    }
+
+    .footer-svg {
+        position: absolute;
+        right: 32px;
+        bottom: 58px;
+    }
+
+    .absol {
+        position: absolute;
+        left: 42px;
+        top: 271px;
+    }
+
+}
