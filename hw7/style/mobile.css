@@ -1,0 +1,165 @@
+@media screen and (max-width: 320px) {
+
+    .body {
+        width: 320px;
+        height: 5156px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider>div:first-child {
+        width: 320px;
+        height: 294px;
+        background-image: url(../images/philip-martin-3.png);
+    }
+
+    .slider div:last-child {
+        width: 320px;
+        height: 246px;
+        padding: 12px 15px;
+
+    }
+
+    .menu-box {
+        margin-right: 280px;
+        position: absolute;
+    }
+
+    .dropdown {
+        width: 320px;
+        height: 359px;
+        left: -17px;
+    }
+
+    .head {
+        width: 320px;
+        height: 65px;
+    }
+
+    .slider {
+        height: 542px;
+        width: 320px;
+    }
+
+    .box {
+        height: 20px;
+        width: 150px;
+        margin-right: 0px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .slide-text {
+        position: absolute;
+    }
+
+    .slide-big-text {
+        display: inline;
+        width: 320px;
+        height: 38px;
+    }
+
+    .slide-bottom-text {
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .body>h1,
+    h2,
+    h3 {
+        padding: 43px 12px 12px;
+    }
+
+    .figure1,
+    .figure2 {
+        margin-left: 11px;
+        margin-bottom: 27px;
+        width: 297px;
+        height: 390px;
+    }
+
+    .img {
+        width: 297px;
+        margin-bottom: 15px;
+    }
+
+    .lifestyle {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .date {
+        margin-bottom: 16px;
+    }
+
+    .figure3,
+    .figure4,
+    .figure5 {
+        width: 295px;
+        height: 288px;
+        margin-left: 11px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .small-img {
+        width: 295px;
+        height: 194.312px;
+    }
+
+    .date-small {
+        margin-right: 112px;
+        margin-bottom: 15px;
+    }
+
+    .bottom-button {
+        margin: 31px 40px;
+    }
+
+    .slider-box-small {
+        height: 433px;
+        width: 320px;
+        margin-left: 0;
+    }
+
+    .left-slide-small {
+        background-image: url(../images/photo-3.png);
+        height: 259px;
+        width: 320px;
+    }
+
+    .right-slide-small {
+        width: 319.72px;
+        height: 174.515px;
+        padding: 40px 70px;
+    }
+
+    .right-slide-small [type=button] {
+        left: 62px;
+    }
+
+    .date-small2 {
+        margin-right: 100px;
+    }
+
+    .seeall-button,
+    .seeall-button2 {
+        margin: 31px 39px;
+    }
+
+    .date-small3 {
+        margin-right: 140px;
+    }
+
+    /* footer {
+        width: 320px;
+        height: 163px;
+    } */
+
+    .footer {
+        width: 320px;
+        height: 163px;
+        padding: 55px 88px;
+    }
+}

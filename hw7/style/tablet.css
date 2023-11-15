@@ -1,0 +1,234 @@
+@media screen and (max-width: 768px) {
+    .body {
+        width: 768px;
+        height: 2524px;
+    }
+
+    .head {
+        width: 768px;
+        height: 65px;
+        padding-left: 23px;
+    }
+
+    .slide-left {
+        background-image: url(../images/philip-martin-2.png);
+        height: 354px;
+    }
+
+    .slider {
+        height: 354px;
+    }
+
+    .slide-right [type="button"] {
+        width: 198px;
+        height: 40px;
+        padding: 11px;
+    }
+
+    .slider>div {
+        width: 383px;
+        height: 354px;
+        padding-right: 109px;
+        padding: 72px 21px;
+
+    }
+
+    .slide-text {
+        visibility: hidden
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .slide-bottom-text {
+        font-size: 12px;
+    }
+
+    .slide-big-text {
+        font-size: 14px;
+    }
+
+    .box {
+        height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .box p:first-child {
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .slide-bottom-text {
+        font-size: 12px
+    }
+
+    .slider {
+        width: 766px;
+    }
+
+    .footer {
+        width: 768px;
+        height: 163px;
+    }
+
+    h1 {
+        padding: 60px 24px 20px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        padding: 52px 24px 20px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        padding: 0px 24px 20px;
+        margin-bottom: 0px;
+    }
+
+    .figure1 {
+        height: 460px;
+        width: 347px;
+        margin-left: 23px;
+        margin-bottom: 0px;
+    }
+
+    .figure2 {
+        height: 460px;
+        width: 347px;
+        margin-left: 29px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .date {
+        margin-right: 166px;
+    }
+
+
+    .img {
+        width: 347px;
+    }
+
+    .span-big {
+        font-size: 18px;
+    }
+
+    .figure1 p:last-child {
+        font-size: 14px;
+    }
+
+    .figure2 p:last-child {
+        font-size: 14px;
+    }
+
+    .figure3 {
+        margin-left: 24px;
+    }
+    .figure5{
+        margin: 0px;
+    }
+    .figure3,
+    .figure4,
+    .figure5 {
+        height: 247px;
+        width: 220px;
+    }
+
+    .figure3,
+    .figure4 {
+        margin-right: 30px;
+    }
+
+    .small-img {
+        width: 220px;
+        height: 145px;
+    }
+
+    .bold-small {
+        font-size: 16px;
+    }
+
+    .date-small {
+        letter-spacing: 6px;
+        margin-right: 40px;
+    }
+
+    .bottom-button {
+        margin: 49px 265px 60px;
+    }
+
+    .slider-box-small {
+        margin-left: 23px;
+        width: 720px;
+        height: 275.235px;
+    }
+
+    .left-slide-small {
+        background-image: url(../images/photo-2.png);
+        width: 360px;
+        height: 275.235px;
+    }
+
+    .right-slide-small {
+        width: 360px;
+        height: 275.235px;
+        padding-top: 89px;
+        padding-left: 90px;
+        position: relative;
+    }
+
+    .right-slide-small span {
+        font-size: 18px;
+    }
+
+    .right-slide-small [type="button"] {
+        margin-left: 0px;
+        position: absolute;
+        left: 82px;
+    }
+
+    .date-small2 {
+        letter-spacing: 6px;
+        margin-right: 31px;
+    }
+
+    .seeall-button,
+    .seeall-button2 {
+        margin: 53px 265px 33px;
+    }
+
+    .seeall-button2 {
+        margin-bottom: 70px;
+    }
+
+    .date-small3 {
+        margin-right: 65px;
+    }
+
+    .footer {
+        width: 768px;
+        height: 163px;
+        padding: 55px 313px 0px;
+    }
+    .box{
+        width: 340px
+    }
+    .head svg{
+        margin: 20px;
+        display:flex;
+        align-items: center;
+        justify-items: center;
+    }
+    .menu-box{
+        margin-right: 690px;
+    }
+    .head{
+        position:relative; 
+    }
+    .head svg{
+        position: absolute;
+    }
+    
+}

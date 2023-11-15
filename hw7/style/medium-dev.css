@@ -1,0 +1,143 @@
+@media screen and (max-width: 1240px) {
+    .body {
+        width: 1240px;
+        height: 3328px;
+    }
+
+    .head {
+        width: 1240px;
+        height: 120px;
+        padding-left: 51px;
+    }
+
+    .slider {
+        width: 1240px;
+    }
+
+    .box {
+        width: 512px;
+    }
+
+    .slider>div {
+        width: 620px;
+        height: 570px;
+        padding-right: 109px;
+    }
+
+    .box p:first-child {
+        margin-right: 196px;
+    }
+
+    .figure1 {
+        margin-left: 149px;
+        width: 457px;
+        height: 555px;
+        margin-bottom: 59px;
+    }
+
+    .figure2 {
+        margin-left: 29px;
+        margin-right: 147px;
+        width: 457px;
+        height: 555px;
+        margin-bottom: 59px;
+    }
+
+    .img {
+        margin-bottom: 20px;
+        width: 457px;
+    }
+
+    .date {
+        margin-right: 278px;
+    }
+
+    .figure3 {
+        width: 295px;
+    }
+
+    .figure4 {
+        width: 295px;
+    }
+
+    .figure5 {
+        width: 295px;
+    }
+
+    .small-img {
+        width: 295px;
+        height: 195px;
+    }
+
+    .date-small {
+        margin-right: 108px;
+    }
+
+    .bottom-button {
+        margin-left: 501px;
+    }
+
+    .left-slide-small {
+        width: 472px;
+        height: 360px;
+    }
+
+    .right-slide-small {
+        width: 469.589px;
+        height: 360px;
+        padding-left: 67px;
+        margin-right: 0px;
+    }
+
+    .slider-box-small {
+        width: 942px;
+        height: 360px;
+        margin-right: 0px;
+    }
+    .slider-box-small span {
+        display: inline block;
+    }
+
+
+    .seeall-button {
+        margin-left: 501px;
+        margin-bottom: 60px;
+    }
+
+    .seeall-button2 {
+        margin-bottom: 87px;
+        margin-left: 501px;
+    }
+
+
+    .date-small2 {
+        margin-right: 100px;
+
+    }
+
+    .date-small3 {
+        margin-right: 140px;
+    }
+
+    .menu-box {
+        margin-right: 470px;
+    }
+
+    .head svg {
+        width: 157px;
+        height: 30px;
+        margin-right: 550px;
+    }
+
+    .footer {
+        width: 1240px;
+        height: 163px;
+        padding-left: 549px;
+        padding-top: 55px;
+    }
+
+    .footer svg {
+        width: 142px;
+        height: 27px;
+    }
+}
